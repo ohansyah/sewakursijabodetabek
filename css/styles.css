@@ -10273,6 +10273,12 @@ header.masthead .masthead-heading {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
+  transition: all 0.3s ease;
+  border: 1px solid #dee2e6;
+}
+#gallery .gallery-item:hover {
+  box-shadow: 5px 5px 5px 5px #e9ecef;
+  transform: scale(1.1);
 }
 #gallery .gallery-item .gallery-link {
   position: relative;
@@ -10592,4 +10598,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/* custom CSS */
+.cards {
+  transition: all 0.3s ease;
+}
+
+.cards-primary {
+  transition: all 0.3s ease;
+}
+
+.cards:hover {
+  box-shadow: 5px 5px 5px 5px #e9ecef;
+  transform: scale(1.1);
+}
+
+.cards-primary:hover {
+  box-shadow: 0px 0px 10px 0px #fed136;
+  transform: scale(1.1);
 }
