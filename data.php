@@ -13,27 +13,13 @@ $phone = "+6282125105779";
 $email = "sewakursijabodetabek@gmail.com";
 
 // products
-$selected = isset($_GET['category']) ? $_GET['category'] : 'kursi';
+$category = isset($_GET['category']) ? $_GET['category'] : 'kursi';
 $products = [
     "kursi" => [
         [
+            "id" => 1,
             "heading" => "Kursi Event 1",
-            "subheading" => "Kursi Event 1",
-            "image" => "assets/img/product/kursi/kursi1-400x400.png",
-        ],
-        [
-            "heading" => "Kursi Event 2",
-            "subheading" => "Kursi Event 2",
-            "image" => "assets/img/product/kursi/kursi1-400x400.png",
-        ],
-        [
-            "heading" => "Kursi Event 3",
-            "subheading" => "Kursi Event 3",
-            "image" => "assets/img/product/kursi/kursi1-400x400.png",
-        ],
-        [
-            "heading" => "Kursi Event 4",
-            "subheading" => "Kursi Event 4",
+            "subheading" => "Kursi antik kayu dengan ukuran klasik",
             "image" => "assets/img/product/kursi/kursi1-400x400.png",
         ]
     ],
