@@ -32,8 +32,8 @@
                             <figure class="rounded p-3 bg-white shadow-sm" data-aos="fade-up" data-aos-delay="750">
                                 <img src="<?=$product["image"]?>" alt="" class="w-100 card-img-top">
                                 <figcaption class="p-4 card-img-bottom">
-                                <h2 class="h5 font-weight-bold mb-2 font-italic"><?=$product["heading"]?></h2>
-                                <p class="mb-0 text-small text-muted font-italic"><?=$product["subheading"]?></p>
+                                <h6 class="font-weight-bold mb-2 font-italic"><?=$product["heading"]?></h6>
+                                <p class="mb-0 text-small text-muted"><?=$product["subheading"]?></p>
                                 </figcaption>
                             </figure>
                         </a>
