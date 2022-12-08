@@ -19,8 +19,8 @@ $products = [
     "kursi" => [
         [
             "id" => 1,
-            "heading" => "Kursi Event 1",
-            "subheading" => "Kursi antik kayu dengan ukiran klasik",
+            "heading" => "Kursi Arm Chair",
+            "subheading" => "Rp.300.000 / pcs",
             "image" => "assets/img/product/kursi/kursi1-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi1-400x400.png",
@@ -28,6 +28,21 @@ $products = [
                 "assets/img/gallery/kursi1-event1/kursi1-event1 (2).jpg",
                 "assets/img/gallery/kursi1-event1/kursi1-event1 (3).jpg",
                 "assets/img/gallery/kursi1-event1/kursi1-event1 (4).jpg"
+            ],
+        ],
+    ],
+    "sofa" => [
+        [
+            "id" => 1,
+            "heading" => "Sofa Single",
+            "subheading" => "Rp.250.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-single1-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-single1-400x400.png",
+                "assets/img/gallery/sofa-single-event/sofa-single-event1.jpg",
+                "assets/img/gallery/sofa-single-event/sofa-single-event2.jpg",
+                "assets/img/gallery/sofa-single-event/sofa-single-event3.jpg",
+                "assets/img/gallery/sofa-single-event/sofa-single-event4.jpg"
             ],
         ],
     ],
