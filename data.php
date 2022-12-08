@@ -39,10 +39,10 @@ $products = [
             "image" => "assets/img/product/sofa/sofa-single1-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-single1-400x400.png",
-                "assets/img/gallery/sofa-single-event/sofa-single-event1.jpg",
-                "assets/img/gallery/sofa-single-event/sofa-single-event2.jpg",
-                "assets/img/gallery/sofa-single-event/sofa-single-event3.jpg",
-                "assets/img/gallery/sofa-single-event/sofa-single-event4.jpg"
+                "assets/img/gallery/sofa-single-event/sofa-single-1.jpg",
+                "assets/img/gallery/sofa-single-event/sofa-single-2.jpg",
+                "assets/img/gallery/sofa-single-event/sofa-single-3.jpg",
+                "assets/img/gallery/sofa-single-event/sofa-single-4.jpg"
             ],
         ],
     ],
