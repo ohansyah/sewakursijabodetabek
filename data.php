@@ -19,8 +19,8 @@ $products = [
     "kursi" => [
         [
             "id" => 1,
-            "heading" => "Kursi Event 1",
-            "subheading" => "Kursi antik kayu dengan ukiran klasik",
+            "heading" => "Kursi Arm Chair",
+            "subheading" => "Rp.300.000 / pcs",
             "image" => "assets/img/product/kursi/kursi1-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi1-400x400.png",
