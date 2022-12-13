@@ -13,6 +13,7 @@ $phone = "+6282125105779";
 $WAme = "https://wa.me/+6282125105779";
 $email = "sewakursijabodetabek@gmail.com";
 $maps = "https://goo.gl/maps/RizeC1YfUNe1UgRb6";
+$description = "Sewa Kursi Event Jabodetabek menyediakan jasa persewaan furniture, kursi, sofa, meja dan masih banyak lagi. Untuk menyewa produk kami Anda dapat menghubungi kami di 082125105779.";
 
 // products
 $category = isset($_GET['category']) ? $_GET['category'] : 'kursi';
