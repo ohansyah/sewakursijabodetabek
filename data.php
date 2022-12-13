@@ -1,6 +1,6 @@
 <?php
 
-$isProd = false;
+$isProd = true;
 $baseURL = "https://sewakursijabodetabek.com/";
 if (!$isProd) {
     $baseURL = "http://localhost/sewakursijabodetabek";
