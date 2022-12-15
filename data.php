@@ -59,7 +59,7 @@ $products = [
                 "assets/img/gallery/kursi-barstool-black-event/barstool5.jpg",
             ],
         ], [
-            "id" => 3,
+            "id" => 4,
             "heading" => "Kursi Barstool White",
             "subheading" => "Rp.125.000 / pcs",
             "image" => "assets/img/product/kursi/barstool-white-400x400.png",
