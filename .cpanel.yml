@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/sewakurs/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
     - /bin/cp categories.php $DEPLOYPATH
     - /bin/cp data.php $DEPLOYPATH
     - /bin/cp product-detail.php $DEPLOYPATH

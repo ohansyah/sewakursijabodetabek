@@ -1,3 +1,7 @@
+<?php
+include 'data.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,8 +9,8 @@
     
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Sewa Kursi Event Jabodetabek menyediakan jasa persewaan furniture, kursi, sofa, meja dan masih banyak lagi. Untuk menyewa produk kami Anda dapat menghubungi kami di 082125105779." />
-    <meta name="keywords" content="Sewa Kursi Event Jabodetabek, sewa sofa jabodetabek, sewa meja jabodetabek, sewa perlengkapan event jabodetabek, Sewa Furniture di Area Jabodetabek, Sewa Kursi, Sofa, atau Perabot Lainnya Di Sekitar Jabodetabek, Sewa Kursi Terbaik Jabodetabek, Sewa Kursi Jabodetabek, Sewa Kursi Jakarta, Sewa Kursi Pamulang, Sewa Kursi Depok, Sewa Kursi Bogor, Kursi Terbaik untuk Disewakan di Jakarta" />
+    <meta name="description" content=<?= $description ?> />
+    <meta name="keywords" content=<?= $keyword ?>/>
 
     <title>Sewa Kursi Jabodetabek</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logos/Vector-75x75.png" />
@@ -197,130 +201,22 @@
                     Sudah Kami Support.</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/1-1.jpeg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/1-2.jpeg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/1-3.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/2-1.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/2-2.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/2-3.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
+                <?php foreach ($products as $categoryKey => $categoryValue): ?>
+                    <?php foreach ($categoryValue as $productKey => $productValue): ?>
+                        <?php for ($i=1; $i<count($productValue["images"]); $i++): ?>
+                            <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
+                                <div class="gallery-item">
+                                    <img class="img-fluid" src=<?= $productValue["images"][$i] ?> alt="" />
+                                    <div class="gallery-caption">
+                                        <div class="gallery-caption-subheading text-muted"><?=$productValue["heading"]?></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endfor;?>
+                    <?php endforeach;?>
+                <?php endforeach;?>
 
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/3-1.jpeg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/3-2.jpeg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/3-3.png" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/4-1.jpeg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/4-2.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/4-3.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/5-1.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/5-2.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                    <div class="gallery-item">
-                        <img class="img-fluid" src="assets/img/gallery/5-3.jpg" alt="" />
-                        <div class="gallery-caption">
-                            <div class="gallery-caption-subheading text-muted">Even BRI</div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
