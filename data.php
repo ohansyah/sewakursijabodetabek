@@ -14,6 +14,7 @@ $WAme = "https://wa.me/+6282125105779";
 $email = "sewakursijabodetabek@gmail.com";
 $maps = "https://goo.gl/maps/RizeC1YfUNe1UgRb6";
 $description = "Sewa Kursi Event Jabodetabek menyediakan jasa persewaan furniture, kursi, sofa, meja dan masih banyak lagi. Untuk menyewa produk kami Anda dapat menghubungi kami di 082125105779.";
+$keyword = "Sewa Kursi Event Jabodetabek, sewa sofa jabodetabek, sewa meja jabodetabek, sewa perlengkapan event jabodetabek, Sewa Furniture di Area Jabodetabek, Sewa Kursi, Sofa, atau Perabot Lainnya Di Sekitar Jabodetabek, Sewa Kursi Terbaik Jabodetabek, Sewa Kursi Jabodetabek, Sewa Kursi Jakarta, Sewa Kursi Pamulang, Sewa Kursi Depok, Sewa Kursi Bogor, Kursi Terbaik untuk Disewakan di Jakarta";
 
 // products
 $category = isset($_GET['category']) ? $_GET['category'] : 'kursi';
@@ -26,10 +27,10 @@ $products = [
             "image" => "assets/img/product/kursi/kursi1-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi1-400x400.png",
-                "assets/img/gallery/kursi1-event1/kursi1-event1 (1).jpg",
-                "assets/img/gallery/kursi1-event1/kursi1-event1 (2).jpg",
-                "assets/img/gallery/kursi1-event1/kursi1-event1 (3).jpg",
-                "assets/img/gallery/kursi1-event1/kursi1-event1 (4).jpg",
+                "assets/img/gallery/kursi1-event1/kursi1-event1.jpg",
+                "assets/img/gallery/kursi1-event1/kursi1-event2.jpg",
+                "assets/img/gallery/kursi1-event1/kursi1-event3.jpg",
+                "assets/img/gallery/kursi1-event1/kursi1-event4.jpg",
             ],
         ], [
             "id" => 2,
@@ -42,26 +43,33 @@ $products = [
                 "assets/img/gallery/kursi-millenial-event/millenial2.jpg",
                 "assets/img/gallery/kursi-millenial-event/millenial3.jpg",
                 "assets/img/gallery/kursi-millenial-event/millenial4.jpg",
-                "assets/img/gallery/kursi-millenial-event/millenial5.jpg",
                 "assets/img/gallery/kursi-millenial-event/millenial6.jpg",
             ],
         ], [
             "id" => 3,
-            "heading" => "Kursi Barstool",
+            "heading" => "Kursi Barstool Black",
             "subheading" => "Rp.125.000 / pcs",
-            "image" => "assets/img/product/kursi/barstool-400x400.png",
+            "image" => "assets/img/product/kursi/barstool-black-400x400.png",
             "images" => [
-                "assets/img/product/kursi/barstool-400x400.png",
-                "assets/img/gallery/kursi-barstool-event/barstool1.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool2.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool3.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool4.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool5.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool6.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool7.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool8.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool9.jpg",
-                "assets/img/gallery/kursi-barstool-event/barstool10.jpg",
+                "assets/img/product/kursi/barstool-black-400x400.png",
+                "assets/img/gallery/kursi-barstool-black-event/barstool1.jpg",
+                "assets/img/gallery/kursi-barstool-black-event/barstool2.jpg",
+                "assets/img/gallery/kursi-barstool-black-event/barstool3.jpg",
+                "assets/img/gallery/kursi-barstool-black-event/barstool4.jpg",
+                "assets/img/gallery/kursi-barstool-black-event/barstool5.jpg",
+            ],
+        ], [
+            "id" => 3,
+            "heading" => "Kursi Barstool White",
+            "subheading" => "Rp.125.000 / pcs",
+            "image" => "assets/img/product/kursi/barstool-white-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/barstool-white-400x400.png",
+                "assets/img/gallery/kursi-barstool-white-event/barstool1.jpg",
+                "assets/img/gallery/kursi-barstool-white-event/barstool2.jpg",
+                "assets/img/gallery/kursi-barstool-white-event/barstool3.jpg",
+                "assets/img/gallery/kursi-barstool-white-event/barstool4.jpg",
+                "assets/img/gallery/kursi-barstool-white-event/barstool5.jpg",
             ],
         ],
     ],
