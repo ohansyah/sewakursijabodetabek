@@ -23,7 +23,7 @@ $products = [
         [
             "id" => 1,
             "heading" => "Kursi Arm Chair",
-            "subheading" => "Rp.300.000 / pcs",
+            "subheading" => "Rp.200.000 / pcs",
             "image" => "assets/img/product/kursi/kursi1-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi1-400x400.png",
@@ -35,7 +35,7 @@ $products = [
         ], [
             "id" => 2,
             "heading" => "Kursi Millenial / Scremble",
-            "subheading" => "Rp.100.000 / pcs",
+            "subheading" => "Rp.125.000 / pcs",
             "image" => "assets/img/product/kursi/millenial-400x400.png",
             "images" => [
                 "assets/img/product/kursi/millenial-400x400.png",
@@ -77,7 +77,7 @@ $products = [
         [
             "id" => 1,
             "heading" => "Sofa Single",
-            "subheading" => "Rp.200.000 / pcs",
+            "subheading" => "Rp.225.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-single1-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-single1-400x400.png",
