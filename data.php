@@ -71,6 +71,20 @@ $products = [
                 "assets/img/gallery/kursi-barstool-white-event/barstool4.jpg",
                 "assets/img/gallery/kursi-barstool-white-event/barstool5.jpg",
             ],
+        ], [
+            "id" => 5,
+            "heading" => "Kursi Payung Taman / Parasol",
+            "subheading" => "Rp.550.000 / pcs",
+            "image" => "assets/img/product/kursi/payung-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/payung-400x400.png",
+                "assets/img/gallery/kursi-payung-event/payung1.jpg",
+                "assets/img/gallery/kursi-payung-event/payung2.jpg",
+                "assets/img/gallery/kursi-payung-event/payung3.jpg",
+                "assets/img/gallery/kursi-payung-event/payung4.jpg",
+                "assets/img/gallery/kursi-payung-event/payung5.jpg",
+                "assets/img/gallery/kursi-payung-event/payung6.jpg",
+            ],
         ],
     ],
     "sofa" => [
