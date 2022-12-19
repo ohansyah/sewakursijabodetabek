@@ -1,6 +1,6 @@
 <?php
 
-$isProd = true;
+$isProd = false;
 $baseURL = "https://sewakursijabodetabek.com/";
 if (!$isProd) {
     $baseURL = "http://localhost/sewakursijabodetabek";
@@ -90,7 +90,7 @@ $products = [
     "sofa" => [
         [
             "id" => 1,
-            "heading" => "Sofa Single",
+            "heading" => "Sofa Single Putih",
             "subheading" => "Rp.225.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-single1-400x400.png",
             "images" => [
@@ -99,6 +99,45 @@ $products = [
                 "assets/img/gallery/sofa-single-event/sofa-single-2.jpg",
                 "assets/img/gallery/sofa-single-event/sofa-single-3.jpg",
                 "assets/img/gallery/sofa-single-event/sofa-single-4.jpg",
+            ],
+        ],  [
+            "id" => 2,
+            "heading" => "Sofa Single Hitam",
+            "subheading" => "Rp.225.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-single-hitam-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-single-hitam-400x400.png",
+                "assets/img/gallery/sofa-single-hitam-event/sofa-single-hitam-event1.jpg",
+                "assets/img/gallery/sofa-single-hitam-event/sofa-single-hitam-event2.jpg",
+                "assets/img/gallery/sofa-single-hitam-event/sofa-single-hitam-event3.jpg",
+                "assets/img/gallery/sofa-single-hitam-event/sofa-single-hitam-event4.jpg",
+                "assets/img/gallery/sofa-single-hitam-event/sofa-single-hitam-event5.jpg",
+                "assets/img/gallery/sofa-single-hitam-event/sofa-single-hitam-event6.jpg",
+            ],
+        ],  [
+            "id" => 3,
+            "heading" => "Sofa Double Putih",
+            "subheading" => "Rp.425.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-double-putih-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-double-putih-400x400.png",
+                "assets/img/gallery/sofa-double-putih-event/sofa-double-putih-event1.jpg",
+                "assets/img/gallery/sofa-double-putih-event/sofa-double-putih-event2.jpg",
+                "assets/img/gallery/sofa-double-putih-event/sofa-double-putih-event3.jpg",
+                "assets/img/gallery/sofa-double-putih-event/sofa-double-putih-event4.jpg",
+                "assets/img/gallery/sofa-double-putih-event/sofa-double-putih-event5.jpg",
+            ],
+        ],  [
+            "id" => 4,
+            "heading" => "Sofa Double Hitam",
+            "subheading" => "Rp.425.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-double-hitam-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-double-hitam-400x400.png",
+                "assets/img/gallery/sofa-double-hitam-event/sofa-double-hitam-event1.jpg",
+                "assets/img/gallery/sofa-double-hitam-event/sofa-double-hitam-event2.jpg",
+                "assets/img/gallery/sofa-double-hitam-event/sofa-double-hitam-event3.jpg",
+                "assets/img/gallery/sofa-double-hitam-event/sofa-double-hitam-event4.jpg",
             ],
         ],
     ],
