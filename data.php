@@ -139,6 +139,21 @@ $products = [
                 "assets/img/gallery/sofa-double-hitam-event/sofa-double-hitam-event3.jpg",
                 "assets/img/gallery/sofa-double-hitam-event/sofa-double-hitam-event4.jpg",
             ],
+        ],  [
+            "id" => 5,
+            "heading" => "Sofa Puff Putih / Hitam / Warna",
+            "subheading" => "Rp.100.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-puff-hitam-putih-warna-event-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-puff-hitam-putih-warna-event-400x400.png",
+                "assets/img/gallery/sofa-puff-hitam-putih-warna-event/sofa-puff-hitam-putih-warna-event1.jpg",
+                "assets/img/gallery/sofa-puff-hitam-putih-warna-event/sofa-puff-hitam-putih-warna-event2.jpg",
+                "assets/img/gallery/sofa-puff-hitam-putih-warna-event/sofa-puff-hitam-putih-warna-event3.jpg",
+                "assets/img/gallery/sofa-puff-hitam-putih-warna-event/sofa-puff-hitam-putih-warna-event4.jpg",
+                "assets/img/gallery/sofa-puff-hitam-putih-warna-event/sofa-puff-hitam-putih-warna-event5.jpg",
+                "assets/img/gallery/sofa-puff-hitam-putih-warna-event/sofa-puff-hitam-putih-warna-event6.jpg",
+                "assets/img/gallery/sofa-puff-hitam-putih-warna-event/sofa-puff-hitam-putih-warna-event7.jpg",
+            ],
         ],
     ],
 ];
