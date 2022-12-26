@@ -6,11 +6,11 @@ include 'data.php';
 <html lang="en">
 
 <head>
-    
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content=<?= $description ?> />
-    <meta name="keywords" content=<?= $keyword ?>/>
+    <meta name="description" content=<?=$description?> />
+    <meta name="keywords" content=<?=$keyword?>/>
 
     <title>Sewa Kursi Jabodetabek</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logos/Vector-75x75.png" />
@@ -59,7 +59,7 @@ include 'data.php';
                 <div class="col-12 text-center">
                     <h1 class="fw-light" data-aos="zoom-in" data-aos-delay="250" >SEWA KURSI EVENT JABODETABEK</h1>
                     <p class="lead" data-aos="zoom-in" data-aos-delay="750">Jasa penyewaan kursi, sofa, meja dan perlengkapan event lainnya</p>
-                    
+
                 </div>
             </div>
         </div>
@@ -175,11 +175,11 @@ include 'data.php';
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="1000">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <a class="portfolio-link" href="categories.php?category=meja">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product/coffee-table-21-1024x614.jpeg" alt="" />
+                            <img class="img-fluid" src="assets/img/product/meja/meja-sofa-hitam-400x400.png" alt="" />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Sewa Meja</div>
@@ -204,16 +204,14 @@ include 'data.php';
 
                 <?php foreach ($products as $categoryKey => $categoryValue): ?>
                     <?php foreach ($categoryValue as $productKey => $productValue): ?>
-                        <?php for ($i=1; $i<count($productValue["images"]); $i++): ?>
-                            <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
-                                <div class="gallery-item">
-                                    <img class="img-fluid" src=<?= $productValue["images"][$i] ?> alt="" />
-                                    <div class="gallery-caption">
-                                        <div class="gallery-caption-subheading text-muted"><?=$productValue["heading"]?></div>
-                                    </div>
+                        <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
+                            <div class="gallery-item">
+                                <img class="img-fluid" src=<?=$productValue["images"][0]?> alt="" />
+                                <div class="gallery-caption">
+                                    <div class="gallery-caption-subheading text-muted"><?=$productValue["heading"]?></div>
                                 </div>
                             </div>
-                        <?php endfor;?>
+                        </div>
                     <?php endforeach;?>
                 <?php endforeach;?>
 
