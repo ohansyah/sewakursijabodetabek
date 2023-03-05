@@ -85,6 +85,42 @@ $products = [
                 "assets/img/gallery/kursi-payung-event/payung5.jpg",
                 "assets/img/gallery/kursi-payung-event/payung6.jpg",
             ],
+        ], [
+            "id" => 6,
+            "heading" => "Kursi Tiffany Akrilik",
+            "subheading" => "Rp.650.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-tiffany-akrilik-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-tiffany-akrilik-400x400.png",
+                "assets/img/gallery/kursi-tiffany-akrilik/kursi-tiffany-akrilik1.jpg",
+                "assets/img/gallery/kursi-tiffany-akrilik/kursi-tiffany-akrilik2.jpg",
+                "assets/img/gallery/kursi-tiffany-akrilik/kursi-tiffany-akrilik3.jpg",
+                "assets/img/gallery/kursi-tiffany-akrilik/kursi-tiffany-akrilik4.jpg",
+            ],
+        ], [
+            "id" => 7,
+            "heading" => "Kursi Tiffany Putih",
+            "subheading" => "Rp.450.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-tiffany-putih-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-tiffany-putih-400x400.png",
+                "assets/img/gallery/kursi-tiffany-putih/kursi-tiffany-putih1.jpg",
+                "assets/img/gallery/kursi-tiffany-putih/kursi-tiffany-putih2.jpg",
+                "assets/img/gallery/kursi-tiffany-putih/kursi-tiffany-putih3.jpg",
+                "assets/img/gallery/kursi-tiffany-putih/kursi-tiffany-putih4.jpg",
+            ],
+        ], [
+            "id" => 8,
+            "heading" => "Kursi Tiffany Gold",
+            "subheading" => "Rp.450.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-tiffany-gold-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-tiffany-gold-400x400.png",
+                "assets/img/gallery/kursi-tiffany-gold/kursi-tiffany-gold1.jpg",
+                "assets/img/gallery/kursi-tiffany-gold/kursi-tiffany-gold2.jpg",
+                "assets/img/gallery/kursi-tiffany-gold/kursi-tiffany-gold3.jpg",
+                "assets/img/gallery/kursi-tiffany-gold/kursi-tiffany-gold4.jpg",
+            ],
         ],
     ],
     "sofa" => [
