@@ -88,7 +88,7 @@ $products = [
         ], [
             "id" => 6,
             "heading" => "Kursi Tiffany Akrilik",
-            "subheading" => "Rp.650.000 / pcs",
+            "subheading" => "Rp.65.000 / pcs",
             "image" => "assets/img/product/kursi/kursi-tiffany-akrilik-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi-tiffany-akrilik-400x400.png",
@@ -100,7 +100,7 @@ $products = [
         ], [
             "id" => 7,
             "heading" => "Kursi Tiffany Putih",
-            "subheading" => "Rp.450.000 / pcs",
+            "subheading" => "Rp.45.000 / pcs",
             "image" => "assets/img/product/kursi/kursi-tiffany-putih-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi-tiffany-putih-400x400.png",
@@ -112,7 +112,7 @@ $products = [
         ], [
             "id" => 8,
             "heading" => "Kursi Tiffany Gold",
-            "subheading" => "Rp.450.000 / pcs",
+            "subheading" => "Rp.45.000 / pcs",
             "image" => "assets/img/product/kursi/kursi-tiffany-gold-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi-tiffany-gold-400x400.png",
