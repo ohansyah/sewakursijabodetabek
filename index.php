@@ -269,6 +269,7 @@ include 'data.php';
                             <h4 class="text-uppercase m-0">Whatsapp</h4>
                             <hr class="my-4" />
                             <div class="text-muted">+6282125105779</div>
+                            <div class="text-muted">+6282112471111</div>
                         </div>
                     </div>
                 </div>
@@ -283,6 +284,7 @@ include 'data.php';
                     <div class="col-lg-4 text-lg-left"></div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-outline-primary btn-social mx-2" target="_blank" href="https://wa.me/+6282125105779"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-primary btn-social mx-2" target="_blank" href="https://wa.me/+6282112471111"><i class="fab fa-whatsapp"></i></a>
                         <a class="btn btn-outline-primary btn-social mx-2" target="_blank" href="https://www.facebook.com/profile.php?id=100087890723468"><i
                                 class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-primary btn-social mx-2" target="_blank" href="https://www.instagram.com/sewakursijabotabek/"><i
