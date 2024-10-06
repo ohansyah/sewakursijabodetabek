@@ -258,6 +258,14 @@ $products = [
                 "assets/img/gallery/sofa-queen-event/sofa-queen-event5.jpg",
                 "assets/img/gallery/sofa-queen-event/sofa-queen-event6.jpg",
             ],
+        ],[
+            "id" => 11,
+            "heading" => "Sofa Dapos",
+            "subheading" => "Rp.175.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-dapos-400x400.jpeg",
+            "images" => [
+                "assets/img/product/sofa/sofa-dapos-400x400.jpeg",
+            ],
         ],
     ],
     "meja" => [
