@@ -23,7 +23,7 @@ $products = [
         [
             "id" => 1,
             "heading" => "Kursi Arm Chair",
-            "subheading" => "Rp.200.000 / pcs",
+            "subheading" => "Rp.175.000 / pcs",
             "image" => "assets/img/product/kursi/kursi1-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi1-400x400.png",
@@ -35,7 +35,7 @@ $products = [
         ], [
             "id" => 2,
             "heading" => "Kursi Millenial / Scremble",
-            "subheading" => "Rp.125.000 / pcs",
+            "subheading" => "Rp.45.000 / pcs",
             "image" => "assets/img/product/kursi/millenial-400x400.png",
             "images" => [
                 "assets/img/product/kursi/millenial-400x400.png",
@@ -48,7 +48,7 @@ $products = [
         ], [
             "id" => 3,
             "heading" => "Kursi Barstool Black",
-            "subheading" => "Rp.125.000 / pcs",
+            "subheading" => "Rp.75.000 / pcs",
             "image" => "assets/img/product/kursi/barstool-black-400x400.png",
             "images" => [
                 "assets/img/product/kursi/barstool-black-400x400.png",
@@ -61,7 +61,7 @@ $products = [
         ], [
             "id" => 4,
             "heading" => "Kursi Barstool White",
-            "subheading" => "Rp.125.000 / pcs",
+            "subheading" => "Rp.75.000 / pcs",
             "image" => "assets/img/product/kursi/barstool-white-400x400.png",
             "images" => [
                 "assets/img/product/kursi/barstool-white-400x400.png",
@@ -74,7 +74,7 @@ $products = [
         ], [
             "id" => 5,
             "heading" => "Kursi Payung Taman / Parasol",
-            "subheading" => "Rp.550.000 / pcs",
+            "subheading" => "Rp.450.000 / pcs",
             "image" => "assets/img/product/kursi/payung-400x400.png",
             "images" => [
                 "assets/img/product/kursi/payung-400x400.png",
@@ -88,7 +88,7 @@ $products = [
         ], [
             "id" => 6,
             "heading" => "Kursi Tiffany Akrilik",
-            "subheading" => "Rp.65.000 / pcs",
+            "subheading" => "Rp.60.000 / pcs",
             "image" => "assets/img/product/kursi/kursi-tiffany-akrilik-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi-tiffany-akrilik-400x400.png",
@@ -100,7 +100,7 @@ $products = [
         ], [
             "id" => 7,
             "heading" => "Kursi Tiffany Putih",
-            "subheading" => "Rp.45.000 / pcs",
+            "subheading" => "Rp.35.000 / pcs",
             "image" => "assets/img/product/kursi/kursi-tiffany-putih-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi-tiffany-putih-400x400.png",
@@ -112,7 +112,7 @@ $products = [
         ], [
             "id" => 8,
             "heading" => "Kursi Tiffany Gold",
-            "subheading" => "Rp.45.000 / pcs",
+            "subheading" => "Rp.35.000 / pcs",
             "image" => "assets/img/product/kursi/kursi-tiffany-gold-400x400.png",
             "images" => [
                 "assets/img/product/kursi/kursi-tiffany-gold-400x400.png",
@@ -121,13 +121,111 @@ $products = [
                 "assets/img/gallery/kursi-tiffany-gold/kursi-tiffany-gold3.jpg",
                 "assets/img/gallery/kursi-tiffany-gold/kursi-tiffany-gold4.jpg",
             ],
+        ], [
+            "id" => 9,
+            "heading" => "Kursi Futura Polos",
+            "subheading" => "Rp.10.000 / pcs",
+            "image" => "assets/img/product/kursi/Futura-polos-400x400.jpg",
+            "images" => [
+                "assets/img/product/kursi/Futura-polos-400x400.jpg",
+                "assets/img/gallery/kursi-futura/Futura1.jpg",
+            ],
+        ], [
+            "id" => 10,
+            "heading" => "Kursi Futura Cover",
+            "subheading" => "Rp.15.000 / pcs",
+            "image" => "assets/img/product/kursi/Futura-cover-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/Futura-cover-400x400.png",
+                "assets/img/gallery/kursi-futura/Futura2.png",
+            ],
+        ], [
+            "id" => 11,
+            "heading" => "Kursi Futura Cover Dan Pita",
+            "subheading" => "Rp.17.500 / pcs",
+            "image" => "assets/img/product/kursi/Futura-cover-dan-pita-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/Futura-cover-dan-pita-400x400.png",
+            ],
+        ], [
+            "id" => 12,
+            "heading" => "Kursi Bakso Hitam",
+            "subheading" => "Rp.25.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-bakso-hitam-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-bakso-hitam-400x400.png",
+            ],
+        ], [
+            "id" => 13,
+            "heading" => "Kursi Bakso Putih",
+            "subheading" => "Rp.25.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-bakso-putih-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-bakso-putih-400x400.png",
+            ],
+        ], [
+            "id" => 14,
+            "heading" => "Kursi Crosback",
+            "subheading" => "Rp.40.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-crosback-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-crosback-400x400.png",
+            ],
+        ], [
+            "id" => 15,
+            "heading" => "Kursi Kuliah",
+            "subheading" => "Rp.25.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-kuliah-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-kuliah-400x400.png",
+            ],
+        ], [
+            "id" => 16,
+            "heading" => "Kursi Betawi",
+            "subheading" => "Rp.125.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-betawi-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-betawi-400x400.png",
+            ],
+        ], [
+            "id" => 17,
+            "heading" => "Kursi Puff Kayu",
+            "subheading" => "Rp.75.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-puff-kayu-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-puff-kayu-400x400.png",
+            ],
+        ], [
+            "id" => 18,
+            "heading" => "Kursi Barstool Sandaran",
+            "subheading" => "Rp.125.000 / pcs",
+            "image" => "assets/img/product/kursi/kursi-barstool-sandaran-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/kursi-barstool-sandaran-400x400.png",
+            ],
+        ],  [
+            "id" => 19,
+            "heading" => "Set Kursi Anak",
+            "subheading" => "Rp.150.000 / pcs",
+            "image" => "assets/img/product/kursi/set-kursi-anak-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/set-kursi-anak-400x400.png",
+            ],
+        ], [
+            "id" => 20,
+            "heading" => "Kursi Barstool Ceri/Corn",
+            "subheading" => "Rp.150.000 / pcs",
+            "image" => "assets/img/product/kursi/barstool-ceri-400x400.png",
+            "images" => [
+                "assets/img/product/kursi/barstool-ceri-400x400.png",
+            ],
         ],
     ],
     "sofa" => [
         [
             "id" => 1,
             "heading" => "Sofa Single Putih",
-            "subheading" => "Rp.225.000 / pcs",
+            "subheading" => "Rp.150.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-single1-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-single1-400x400.png",
@@ -139,7 +237,7 @@ $products = [
         ],  [
             "id" => 2,
             "heading" => "Sofa Single Hitam",
-            "subheading" => "Rp.225.000 / pcs",
+            "subheading" => "Rp.150.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-single-hitam-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-single-hitam-400x400.png",
@@ -153,7 +251,7 @@ $products = [
         ],  [
             "id" => 3,
             "heading" => "Sofa Double Putih",
-            "subheading" => "Rp.425.000 / pcs",
+            "subheading" => "Rp.300.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-double-putih-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-double-putih-400x400.png",
@@ -166,7 +264,7 @@ $products = [
         ],  [
             "id" => 4,
             "heading" => "Sofa Double Hitam",
-            "subheading" => "Rp.425.000 / pcs",
+            "subheading" => "Rp.300.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-double-hitam-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-double-hitam-400x400.png",
@@ -178,7 +276,7 @@ $products = [
         ],  [
             "id" => 5,
             "heading" => "Sofa Puff Putih / Hitam / Warna",
-            "subheading" => "Rp.100.000 / pcs",
+            "subheading" => "Rp.75.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-puff-hitam-putih-warna-event-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-puff-hitam-putih-warna-event-400x400.png",
@@ -193,7 +291,7 @@ $products = [
         ],  [
             "id" => 6,
             "heading" => "Sofa Oval Putih",
-            "subheading" => "Rp.225.000 / pcs",
+            "subheading" => "Rp.175.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-oval-putih-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-oval-putih-400x400.png",
@@ -206,7 +304,7 @@ $products = [
         ], [
             "id" => 7,
             "heading" => "Sofa Oval Hitam",
-            "subheading" => "Rp.225.000 / pcs",
+            "subheading" => "Rp.175.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-oval-hitam-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-oval-hitam-400x400.png",
@@ -219,7 +317,7 @@ $products = [
         ], [
             "id" => 8,
             "heading" => "Sofa Puff Bulat",
-            "subheading" => "Rp.100.000 / pcs",
+            "subheading" => "Rp.75.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-puff-bulat-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-puff-bulat-400x400.png",
@@ -234,7 +332,7 @@ $products = [
         ], [
             "id" => 9,
             "heading" => "Sofa Puff Bulat",
-            "subheading" => "Rp.225.000 / pcs",
+            "subheading" => "Rp.175.000 / pcs",
             "image" => "assets/img/product/sofa/sofa-scandinavian-400x400.png",
             "images" => [
                 "assets/img/product/sofa/sofa-scandinavian-400x400.png",
@@ -262,17 +360,67 @@ $products = [
             "id" => 11,
             "heading" => "Sofa Dapos",
             "subheading" => "Rp.175.000 / pcs",
-            "image" => "assets/img/product/sofa/sofa-dapos-400x400.jpeg",
+            "image" => "assets/img/product/sofa/sofa-dapos-400x400.png",
             "images" => [
-                "assets/img/product/sofa/sofa-dapos-400x400.jpeg",
+                "assets/img/product/sofa/sofa-dapos-400x400.png",
+            ],
+        ],[
+            "id" => 12,
+            "heading" => "Sofa Puff Panjang",
+            "subheading" => "Rp.125.000 / pcs",
+            "image" => "assets/img/product/sofa/Puff-panjang-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/Puff-panjang-400x400.png",
+            ],
+        ],[
+            "id" => 13,
+            "heading" => "Sofa Cafe",
+            "subheading" => "Rp.150.000 / pcs",
+            "image" => "assets/img/product/sofa/Sofa-Cafe-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/Sofa-Cafe-400x400.png",
+            ],
+        ],[
+            "id" => 14,
+            "heading" => "Sofa Lesehan",
+            "subheading" => "Rp.150.000 / pcs",
+            "image" => "assets/img/product/sofa/Sofa-lesehan-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/Sofa-lesehan-400x400.png",
+            ],
+        ],[
+            "id" => 15,
+            "heading" => "Sofa Scandiv Crucut",
+            "subheading" => "Rp.175.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-scandiv-crucut-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-scandiv-crucut-400x400.png",
+                "assets/img/gallery/sofa-scandiv-crucut/scandiv-crucut1.png",
+            ],
+        ],[
+            "id" => 16,
+            "heading" => "Sofa Scandiv",
+            "subheading" => "Rp.175.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-scandif-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-scandif-400x400.png",
+            ],
+        ],[
+            "id" => 17,
+            "heading" => "Sofa Dealing Putar",
+            "subheading" => "Rp.175.000 / pcs",
+            "image" => "assets/img/product/sofa/sofa-dealing-putar-400x400.png",
+            "images" => [
+                "assets/img/product/sofa/sofa-dealing-putar-400x400.png",
             ],
         ],
     ],
+    
     "meja" => [
         [
             "id" => 1,
             "heading" => "Meja Sofa Putih",
-            "subheading" => "Rp.125.000 / pcs",
+            "subheading" => "Rp.100.000 / pcs",
             "image" => "assets/img/product/meja/meja-sofa-putih-400x400.png",
             "images" => [
                 "assets/img/product/meja/meja-sofa-putih-400x400.png",
@@ -284,7 +432,7 @@ $products = [
         ],  [
             "id" => 2,
             "heading" => "Meja Sofa Hitam",
-            "subheading" => "Rp.125.000 / pcs",
+            "subheading" => "Rp.100.000 / pcs",
             "image" => "assets/img/product/meja/meja-sofa-hitam-400x400.png",
             "images" => [
                 "assets/img/product/meja/meja-sofa-hitam-400x400.png",
@@ -293,6 +441,130 @@ $products = [
                 "assets/img/gallery/meja-sofa-hitam-event/meja-sofa-hitam-event4.jpg",
                 "assets/img/gallery/meja-sofa-hitam-event/meja-sofa-hitam-event5.jpg",
                 "assets/img/gallery/meja-sofa-hitam-event/meja-sofa-hitam-event6.jpg",
+            ],
+        ],  [
+            "id" => 3,
+            "heading" => "Meja Milenial Hitam",
+            "subheading" => "Rp.100.000 / pcs",
+            "image" => "assets/img/product/meja/meja-milineal-hitam-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-milineal-hitam-400x400.png",
+            ],
+        ],  [
+            "id" => 4,
+            "heading" => "Meja Taman",
+            "subheading" => "Rp.450.000 / pcs",
+            "image" => "assets/img/product/meja/meja-taman-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-taman-400x400.png",
+            ],
+        ],  [
+            "id" => 5,
+            "heading" => "Meja Cafe",
+            "subheading" => "Rp.90.000 / pcs",
+            "image" => "assets/img/product/meja/meja-cafe-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-cafe-400x400.png",
+            ],
+        ],  [
+            "id" => 6,
+            "heading" => "Meja Betawi",
+            "subheading" => "Rp.90.000 / pcs",
+            "image" => "assets/img/product/meja/meja-betawi-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-betawi-400x400.png",
+            ],
+        ],  [
+            "id" => 7,
+            "heading" => "Meja Sudut Amchair",
+            "subheading" => "Rp.60.000 / pcs",
+            "image" => "assets/img/product/meja/meja-amchair-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-amchair-400x400.png",
+            ],
+        ],  [
+            "id" => 8,
+            "heading" => "Meja Amchair",
+            "subheading" => "Rp.75.000 / pcs",
+            "image" => "assets/img/product/meja/meja-amchair-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-amchair-400x400.png",
+            ],
+        ],  [
+            "id" => 9,
+            "heading" => "Meja Milenial Kaki Pendek",
+            "subheading" => "Rp.65.000 / pcs",
+            "image" => "assets/img/product/meja/meja-melenial-kaki-pendek-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-melenial-kaki-pendek-400x400.png",
+            ],
+        ],  [
+            "id" => 10,
+            "heading" => "Meja Milenial Putih",
+            "subheading" => "Rp.100.000 / pcs",
+            "image" => "assets/img/product/meja/meja-milineal-putih-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-milineal-putih-400x400.png",
+            ],
+        ],  [
+            "id" => 11,
+            "heading" => "Meja Dealing",
+            "subheading" => "Rp.125.000 / pcs",
+            "image" => "assets/img/product/meja/meja-dealing-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-dealing-400x400.png",
+                "assets/img/gallery/meja-dealing/meja-dealing1.png",
+                "assets/img/gallery/meja-dealing/meja-dealing2.png",
+            ],
+        ],  [
+            "id" => 12,
+            "heading" => "Meja Roundtable 120cm",
+            "subheading" => "Rp.95.000 / pcs",
+            "image" => "assets/img/product/meja/meja-roundtable-120cm-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-roundtable-120cm-400x400.png",
+            ],
+        ],  [
+            "id" => 13,
+            "heading" => "Meja Bar",
+            "subheading" => "Rp.100.000 / pcs",
+            "image" => "assets/img/product/meja/meja-bar-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-bar-400x400.png",
+            ],
+        ],  [
+            "id" => 14,
+            "heading" => "Meja Skirting",
+            "subheading" => "Rp.75.000 / pcs",
+            "image" => "assets/img/product/meja/meja-skirting-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-skirting-400x400.png",
+            ],
+        ],  [
+            "id" => 15,
+            "heading" => "Meja Cafe Kotak",
+            "subheading" => "Rp.125.000 / pcs",
+            "image" => "assets/img/product/meja/meja-cafe-kotak-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-cafe-kotak-400x400.png",
+            ],
+        ],  [
+            "id" => 16,
+            "heading" => "Meja IBM",
+            "subheading" => "Rp.125.000 / pcs",
+            "image" => "assets/img/product/meja/meja-ibm-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-ibm-400x400.png",
+                "assets/img/gallery/meja-ibm/meja-ibm1.png",
+            ],
+        ],  [
+            "id" => 17,
+            "heading" => "Meja Roundtable 160cm",
+            "subheading" => "Rp.150.000 / pcs",
+            "image" => "assets/img/product/meja/meja-roundtable-160cm-400x400.png",
+            "images" => [
+                "assets/img/product/meja/meja-roundtable-160cm-400x400.png",
+                "assets/img/gallery/meja-roundtable-160cm/meja-roundtable-160cm1.png",
             ],
         ],
     ],
