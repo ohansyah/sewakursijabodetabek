@@ -202,8 +202,11 @@ include 'data.php';
             </div>
             <div class="row">
 
-                <?php foreach ($products as $categoryKey => $categoryValue): ?>
-                    <?php foreach ($categoryValue as $productKey => $productValue): ?>
+                <?php foreach ($products as $categoryKey => $categoryValue): 
+                    $randomKeys = array_rand($categoryValue, $limitPerCategory); 
+                    $randomProducts = array_intersect_key($categoryValue, array_flip($randomKeys));
+                    foreach ($randomProducts as $productKey => $productValue): ?>
+                    
                         <div class="col-lg-4 col-sm-6 mb-4" data-aos="zoom-in">
                             <div class="gallery-item">
                                 <img class="img-fluid" src=<?=$productValue["images"][0]?> alt="" />
@@ -212,8 +215,9 @@ include 'data.php';
                                 </div>
                             </div>
                         </div>
-                    <?php endforeach;?>
-                <?php endforeach;?>
+
+                    <?php endforeach;
+                endforeach;?>
 
             </div>
         </div>
